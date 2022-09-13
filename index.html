@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOR</title>
+<link href="color.css" rel="stylesheet"/>
+</head>
+<body><div class="heading" id="headid">
+    <HEADER>
+      <h1>  COLOR FLIPPER
+    </h1>    </HEADER>
+    
+        <div class="refresh" id="ref">
+            <img src="refresh.png" onClick="window.location.reload()">
+        </div>
+
+        
+    </div>
+    
+    <main> <div class="main" id="main">
+        <div class="container">
+            <h1>BACKGROUND-COLOR: <span class="cCode">#ffffff</span></h1>
+       <button class="btn btn-submit" id="btn">
+            CHANGE COLOR
+       </button>
+       <div id="time">
+       <p> DATE & TIME <br>
+       <script>
+        const date= new Date().getDate();
+           const month = new Date().getMonth();
+            const year = new Date().getFullYear();
+            const hours = new Date().getHours();
+            const minutes = new Date().getMinutes();
+            let time = `${date}/${month}/${year} \ ${hours}:${minutes}`;
+             document.write(time);
+       </script>
+       </p>
+
+       </div>
+       
+       <p id="demo"></p>
+        </div> 
+    </div>
+    </main>
+ 
+    <script src="color.js"></script>
+</body>
+</html>

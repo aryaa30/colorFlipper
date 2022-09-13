@@ -1,0 +1,25 @@
+.main{
+  display: flex;
+height: 400px;
+  width:auto;
+  justify-content: center;
+ 
+  align-items: center;
+}
+.refresh{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 30%;
+  width:89%;
+  
+}
+p{
+  text-align: center;
+  letter-spacing: 13px;
+  word-spacing: 23px;
+}
+#time{
+
+  font-weight: 900;
+  font-size: 35px;
+}
